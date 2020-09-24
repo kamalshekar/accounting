@@ -1,0 +1,150 @@
+[data-theme="compact"] .ant-drawer-body p {
+  margin-bottom: 0;
+}
+.TractionHead {
+  display: flex;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #3b4859;
+}
+.firstRow {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  color: #3b4859;
+  justify-content: space-between;
+}
+.drawerCards {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.secRow {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 12px;
+  color: #3b4859;
+}
+.inviteBtn {
+  background-color: #1a6bb4;
+  color: #fff;
+  font-size: 12px;
+  height: 22px;
+  cursor: pointer;
+}
+.inviteBtnInvert {
+  background-color: #fff;
+  color: #1a6bb4;
+  font-size: 12px;
+  height: 22px;
+  cursor: pointer;
+  border: 1px solid #1a6bb4;
+}
+.antDrawerheight .ant-drawer-content-wrapper {
+  height: calc(100% - 144px) !important;
+}
+
+.gxCheckhead {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 25px;
+  color: #1a6bb4;
+}
+.gxChecksub {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 15px;
+  color: #1a6bb4;
+}
+.emailHead {
+  font-family: Montserrat;
+
+  font-weight: bold;
+  font-size: 10px;
+  color: #1a6bb4;
+}
+.emailContainer {
+  /* border: 1px solid #d9d9d9; */
+  padding: 1rem;
+  box-shadow: 0px 0px 3px 1px #d9d9d9;
+}
+.inputStyle {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+}
+.ant-input:focus {
+  border-color: #40a9ff;
+  border-right-width: 0px !important;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0px rgba(24, 144, 255, 0.2);
+  box-shadow: 0 0 0 0px rgba(24, 144, 255, 0.2);
+}
+.gxCheckCenter {
+  height: calc(100vh - 192px) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gxCheckdrawer .ant-drawer-body {
+  padding: 0 !important;
+}
+.gxCheckback {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  z-index: 1;
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.containerAnimation > div {
+  animation: zoomLog 0.7s 1 0s linear;
+}
+.searchBox {
+  border: 1px solid #1a6bb4;
+  display: flex;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.user-list-dt {
+  padding: 1rem 1rem 3.5rem 1rem;
+  height: calc(100vh - 250px);
+  overflow: auto;
+}
+.user-Types {
+  height: calc(100vh - 238px);
+  overflow: auto;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.user-list-dt::-webkit-scrollbar {
+  display: none;
+}
+.user-Types::-webkit-scrollbar {
+  display: none;
+}
+.users-type-card {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.searchIcon {
+  padding: 9px;
+  color: #fff;
+  background-color: #1a6bb4;
+  cursor: pointer;
+}
+.searchBox .ant-input {
+  border-radius: 0px !important;
+  border-color: #fff !important;
+}
+.searchBox .ant-btn {
+  border-radius: 0px !important;
+  border-color: #fff !important;
+  border-left-color: #1a6bb4 !important;
+
+  width: 250px;
+}
